@@ -24,3 +24,10 @@ jobs:
             
       - name: Run tests
         run: npm run test --coverage
+    
+  style:
+    name: Style
+    runs-on: unbutu-latest
+    steps:
+      - name: Check format issues
+        run: npm run format:check
