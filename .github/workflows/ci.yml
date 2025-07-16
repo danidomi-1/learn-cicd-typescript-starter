@@ -27,7 +27,7 @@ jobs:
     
   style:
     name: Style
-    runs-on: unbutu-latest
+    runs-on: unbuntu-latest
 
     steps:
       - name: Check out code
